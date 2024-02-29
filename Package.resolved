@@ -12,10 +12,10 @@
     {
       "identity" : "languageserverprotocol",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ChimeHQ/LanguageServerProtocol",
+      "location" : "https://github.com/jayadamsmorgan/LanguageServerProtocol",
       "state" : {
-        "revision" : "f5a53e0386b34a0e06333ec9376f5972f7d20c28",
-        "version" : "0.13.0"
+        "branch" : "main",
+        "revision" : "544f1d38e41d39964e59a90b81d2f0c968c3c1d7"
       }
     }
   ],

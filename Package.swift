@@ -15,7 +15,7 @@ let package = Package(
 		.library(name: "LanguageServer", targets: ["LanguageServer"]),
 	],
 	dependencies: [
-		.package(url: "https://github.com/ChimeHQ/LanguageServerProtocol", from: "0.11.0"),
+		.package(url: "https://github.com/jayadamsmorgan/LanguageServerProtocol", branch: "main"),
 	],
 	targets: [
 		.target(name: "LanguageServer", dependencies: ["LanguageServerProtocol"]),
