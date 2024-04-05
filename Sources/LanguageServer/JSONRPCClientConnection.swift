@@ -303,7 +303,8 @@ public actor JSONRPCClientConnection : ClientConnection {
 		let method = request.method.rawValue
 
 		switch request {
-
+		case .custom(_, let params, _): // Temporary
+			return try await session.response(to: method, params: params)
 		case .workspaceConfiguration(let params, _):
 			return try await session.response(to: method, params: params)
 		case .workspaceFolders:
